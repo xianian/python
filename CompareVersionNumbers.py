@@ -7,7 +7,6 @@ class Solution(object):
         """
         vlist1 = version1.split('.')
         vlist2 = version2.split('.')
-
         count = 0
         ret = 0
         while count < len(vlist1) and count < len(vlist2):
